@@ -1,69 +1,150 @@
+/*характеристики сайта*/
+
+
+/*width: 1000px;*/
+
+
 /*мои стили*/
 
-a{
-  text-decoration: none;
+body{
+  font-family: "Arial";
 }
 
-header{
-  position: relative;
+/*хак для float*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
 }
 
-/*---шапка---*/
-header{
-  height: 390px;
-  background-color: #fff;
+.clearfix:after {
+    clear: both;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+/*мои переменные*/
+
 
 /*ширина сайта*/
-.w995{
-  width: 995px;
-  margin: 0 auto;
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
 }
 
-/*===Верхняя часть шапки===*/
-.header1{
-  height: 340px;
-  background-image: url(../img/bg-header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+/*---ГЛАВНАЯ---*/
+
+
+/*верхняя линия*/
+
+.top-line {
+    height: 37px;
+    border-bottom: 1px solid #c2c8cc;
+    background-image: -moz-linear-gradient( 90deg, rgb(227, 228, 230) 0%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(227, 228, 230) 0%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(227, 228, 230) 0%, rgb(255, 255, 255) 100%);
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(227, 228, 230, 0.75);
+    -moz-box-shadow: 0px 3px 9px 0px rgba(227, 228, 230, 0.75);
+    box-shadow: 0px 3px 9px 0px rgba(227, 228, 230, 0.75);
 }
 
-/*===1 линия шапки===*/
-.line-top-1 a{
-  height: 65px;
-  line-height: 65px;
+
+.top-line .w1000{
+  text-align: right;
+}
+
+.user-reg{
+
+}
+
+/*вход и регистрация*/
+.user-reg a {
+    font-size: 12px;
+    /* margin: 0 9px; */
+    margin-left: 4px;
+    font-family: "Arial";
+    color: rgb(44, 47, 51);
+    font-weight: bold;
+    height: 38px;
+    line-height: 43px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    border-bottom: 1px dotted;
+}
+
+/*изображение арзделяющей линии между вход и регистрация*/
+.top-line-img{
+  background-image: url(../img/index/line-top.png);
+  background-repeat:no-repeat;
+  background-position:right;
+  padding-right: 11px;
+}
+
+/*header-1-1*/
+.header-1-1{
+  margin-top: 29px;
+}
+
+/*=лого=*/
+/*ссылка на лого*/
+.logo-a{
+  float: left;
+}
+/*контейнер логотипа*/
+.logo-div{
+  width: 272px;
+  height: 78px;
+  /* outline: 1px solid; */
+  vertical-align: middle;
+  display: table;
+  border-collapse: collapse;
+}
+
+/*логотип картинка*/
+.logo-img{
+  display: table-cell;  
+}
+
+/*название сайта*/
+.logo-name{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+  line-height: 1.588;
+  height: 16px;
+  display: inline;
+}
+
+/*описание сайта*/
+.logo-title {
   font-size: 11px;
   font-family: "Arial";
-  color: rgb( 255, 255, 255 );
-  text-transform: uppercase;
+  color: rgb(37, 37, 37);
+  height: 10px;
 }
 
-/*меню 1*/
-.top1{
-  display: inline;
-  text-align: left;
-  margin-left: 190px;
+.logo-text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.top1 li{
-  display: inline;
-  margin-right: 40px;
-}
-
-.top1 li:last-child{
-  margin-right: 0;
-}
-
-/*кнопки входа*/
-
-.sign-in{
+/*=банер в шапке=*/
+/*контейнер для банера*/
+.header-1-1-baner{
+  width: 728px;
+  height: 90px;
+  overflow: hidden;
   float: right;
 }
-
-.sign-in a{
-  margin-left: 20px;
-}
-
-.sign-in a:first-child{
-margin-left: 0;
+/*картинка банера*/
+.header-1-1-baner img{
+  width: 728px;
+  height: 90px;
 }
