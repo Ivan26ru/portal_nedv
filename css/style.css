@@ -392,7 +392,6 @@ a {
 }
 
 .left-news-container {
-    outline: 1px solid red;
     clear: both;
     margin-top: 20px;
     display: inline-block;
@@ -426,7 +425,6 @@ a {
 }
 
 .left-news-text {
-    outline: 1px solid red;
     margin-left: 83px;
 }
 
@@ -443,4 +441,117 @@ a {
     font-family: "Arial";
     color: rgb(79, 79, 79);
     line-height: 1.417;
+}
+
+
+/*=центральная колонка=*/
+
+
+/* контейнер банеров верхних */
+
+.center-div-baner-top {
+    display: inline-block;
+    width: 100%;
+}
+
+.center-div-baner-top div {
+    display: inline-block;
+    border-radius: 5px;
+    height: 80px;
+    width: 220px;
+}
+
+
+/*левый банер*/
+
+.center-top-baner-div-1 {
+    float: left;
+    margin-left: 33px;
+}
+
+
+/*правый банер*/
+
+.center-top-baner-div-2 {
+    float: right;
+    margin-right: 33px;
+}
+
+.center-line-title {
+    font-size: 31px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    padding: 10px 12px;
+    background-color: #fff000;
+    display: inline-block;
+}
+
+.center-all {
+    float: right;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.center-line-y {
+    margin-top: 36px;
+    position: relative;
+}
+.posts-home{
+    margin-top:18px;
+}
+
+.post-home-data a {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    background-image: url(../img/index/data-bg.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding:8px 7px;
+    display:block;
+}
+
+.post-home-div-img{
+    margin-top:14px;
+}
+
+.post-home-div-img{
+    border-radius:10px;
+}
+
+.post-title a{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(37, 37, 37);
+  line-height: 1.417;
+  text-align: left;
+}
+
+.post-price, .post-price-type {
+  font-size: 22px;
+  font-family: "Arial";
+  color: rgb(98, 98, 98);
+  line-height: 0.909;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  }
+
+.post-price{
+    padding-bottom:5px;
+    border-bottom:1px solid;
+}
+
+.post-price-type{
+    padding-top:5px;
+    font-size:12px;
+
+}
+
+.posts-home{
+    width:100px;
 }

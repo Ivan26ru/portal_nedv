@@ -102,6 +102,7 @@
 									<p>Афтершок с зачастую</p>
 	                			</div>
 	                		</div>
+
 	                		<!-- .запись новости -->
 	                	
 	                		<!-- запись новости -->
@@ -142,7 +143,39 @@
 	                </div>
 	            </div>
 	            <!-- центральная полонка -->
-	            <div class="center"> по центру</div>
+	            <div class="center">
+					<!-- 2 банера посередине -->
+					<div class="center-div-baner-top">
+						<div class="center-top-baner-div-1 sh-b">
+							<img src="img/index/center-baner-1.png">
+						</div>
+						<div class="center-top-baner-div-2 sh-b">
+							<img src="img/index/center-baner-1.png">
+						</div>
+					</div>
+					<!-- .2 банера посередине -->
+					<!-- Аренда помещений строка -->
+					<div class="center-line-y">
+						<a class="center-line-title" href="#">Аренда помещений</a>
+						<p class="center-all"><a href="#">Все предложения аренды</a></p>
+					</div>
+					<!-- .Аренда помещений строка -->
+					<!-- Строка зданий -->
+					<div class="posts-home">
+						<p class="post-home-data">
+							<a href="#">30.08.2015</a>
+						</p>
+						<div class="post-home-div-img">
+							<img src="img/index/home-post.png">
+						</div>
+						<p class="post-title">
+							<a href="#">Офисное</a>
+						</p>
+						<p class="post-price">от 250</p>
+						<p class="post-price-type">руб. / м2 / мес.</p>
+					</div>
+					<!-- .Строка зданий -->
+	            </div>
 	        </div>
 	        <!-- правая колонка (сайдбар) -->
             <div class="right">
