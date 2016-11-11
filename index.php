@@ -45,40 +45,116 @@
                 <!-- .блок лого -->
                 <!-- изображение города вверху -->
                 <div class="header-1-1-baner">
-                    <img src="img/index/header-baner.png">                    
+                    <img src="img/index/header-baner.png">
                 </div>
                 <!-- .изображение города вверху -->
-            </div>            
+            </div>
             <!-- .header-1-1 -->
             <!-- header-1-2 -->
-            <div class="header-1-2">
-            <div class="w1000">
-                <!-- верхнее меню -->
-                <ul class="menu-top">
-                    <li><a href="#">О проекте</a></li>
-                    <li><a href="#">Аренда помещений</a></li>
-                    <li><a href="#">Продажа помещений</a></li>
-                    <li><a href="#">Бизнес центры</a></li>
-                    <li><a href="#">Торговый центы</a></li>
-                </ul>
-                <!-- .верхнее меню -->
-                <div class="add">
-                    <a href="#">Добавить объект</a>
-                    <a href="#">+</a>
+            <div class="header-1-2 clearfix">
+                <div class="w1000">
+                    <!-- верхнее меню -->
+                    <ul class="menu-top">
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Аренда помещений</a></li>
+                        <li><a href="#">Продажа помещений</a></li>
+                        <li><a href="#">Бизнес центры</a></li>
+                        <li><a href="#">Торговый центы</a></li>
+                    </ul>
+                    <!-- .верхнее меню -->
+                    <div class="add">
+                        <a class="add-add" href="#"><span>Добавить объект</span></a>
+                        <a class="add-plus" href="#"><img src="img/index/add-top-plus.png" alt=""></a>
+                    </div>
                 </div>
-            </div>
             </div>
             <!-- .header-1-2 -->
         </div>
+        <!-- .header-1 -->
         </div>
 <!-- .верхняя полоска -->
     </header>
     <!-- .header-->
-    <main class="content">            
+    <main class="content clearfix">
+        <div class="w1000">
+        	<!-- левая и центральная колонки -->
+	        <div class="left-center">
+	        	<!-- левая колонка -->
+	            <div class="left">
+	            	<!-- банер 1 -->
+	                <div class="left-div-baner sh-b">
+	                	<img src="img/left/left-baner-1.png">
+	                </div>
+	                <!-- новости -->
+	                <div class="left-news">
+	                	<p class="left-news-title">Новости</p>
+	                	<p class="left-all-news"><span></span><a href="#">Все новости</a></p>
+	                	<!-- контейнер новостей -->
+	                	<div class="left-news-container">
+	                		<!-- запись новости -->
+	                		<div class="left-news-post">
+	                			<p class="news-data">25.05.2015</p>
+	                			<div class="left-news-img">
+	                				<img src="img/left/left-news.png">
+	                			</div>
+	                			<div class="left-news-text">
+	                				<a href="#">Запрос к вашей новости</a>
+									<p>Афтершок с зачастую</p>
+	                			</div>
+	                		</div>
+	                		<!-- .запись новости -->
+	                	
+	                		<!-- запись новости -->
+	                		<div class="left-news-post">
+	                			<p class="news-data">25.05.2015</p>
+	                			<div class="left-news-img">
+	                				<img src="img/left/left-news.png">
+	                			</div>
+	                			<div class="left-news-text">
+	                				<a href="#">Запрос к вашей новости</a>
+									<p>Афтершок с зачастую</p>
+	                			</div>
+	                		</div>
+	                		<!-- .запись новости -->
+	                	
+	                		<!-- запись новости -->
+	                		<div class="left-news-post">
+	                			<p class="news-data">25.05.2015</p>
+	                			<div class="left-news-img">
+	                				<img src="img/left/left-news.png">
+	                			</div>
+	                			<div class="left-news-text">
+	                				<a href="#">Запрос к вашей новости</a>
+									<p>Афтершок с зачастую</p>
+	                			</div>
+	                		</div>
+	                		<!-- .запись новости -->
+	                	</div>
+	                </div>
+	                <!-- .новости -->
+	                <!-- банер 2 -->
+	                <div class="left-div-baner sh-b">
+	                	<img src="img/left/left-baner-1.png">
+	                </div>
+	                <!-- банер 3 -->
+	                <div class="left-div-baner sh-b">
+	                	<img src="img/left/left-baner-1.png">
+	                </div>
+	            </div>
+	            <!-- центральная полонка -->
+	            <div class="center"> по центру</div>
+	        </div>
+	        <!-- правая колонка (сайдбар) -->
+            <div class="right">
+                <div class="right-baner-div-1 sh-b">
+                    <img src="img/index/baner-right-1.png" class="right-baner-1">
+                </div>
+            </div>
+        </div>
     </main>
     <!-- .content -->
     <footer class="footer">
-    </footer>        
+    </footer>
     <!-- .footer -->
 </body>
 

@@ -6,9 +6,17 @@
 
 /*мои стили*/
 
-body{
-  font-family: "Arial";
+@font-face {
+    font-family: fi;
+    /* Гарнитура шрифта */
+    src: url(fonts/FontAwesome.otf);
+    /* Путь к файлу со шрифтом */
 }
+
+body {
+    font-family: "Arial";
+}
+
 
 /*хак для float*/
 
@@ -54,16 +62,15 @@ a {
     box-shadow: 0px 3px 9px 0px rgba(227, 228, 230, 0.75);
 }
 
-
-.top-line .w1000{
-  text-align: right;
+.top-line .w1000 {
+    text-align: right;
 }
 
-.user-reg{
+.user-reg {}
 
-}
 
 /*вход и регистрация*/
+
 .user-reg a {
     font-size: 12px;
     /* margin: 0 9px; */
@@ -77,74 +84,363 @@ a {
     border-bottom: 1px dotted;
 }
 
+
 /*изображение арзделяющей линии между вход и регистрация*/
-.top-line-img{
-  background-image: url(../img/index/line-top.png);
-  background-repeat:no-repeat;
-  background-position:right;
-  padding-right: 11px;
+
+.top-line-img {
+    background-image: url(../img/index/line-top.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 11px;
 }
+
 
 /*header-1-1*/
-.header-1-1{
-  margin-top: 29px;
+
+.header-1-1 {
+    margin-top: 29px;
 }
+
 
 /*=лого=*/
+
+
 /*ссылка на лого*/
-.logo-a{
-  float: left;
+
+.logo-a {
+    float: left;
 }
+
+
 /*контейнер логотипа*/
-.logo-div{
-  width: 272px;
-  height: 78px;
-  /* outline: 1px solid; */
-  vertical-align: middle;
-  display: table;
-  border-collapse: collapse;
+
+.logo-div {
+    width: 272px;
+    height: 78px;
+    vertical-align: middle;
+    display: table;
+    border-collapse: collapse;
 }
+
 
 /*логотип картинка*/
-.logo-img{
-  display: table-cell;  
+
+.logo-img {
+    display: table-cell;
 }
+
 
 /*название сайта*/
-.logo-name{
-  font-size: 16px;
-  font-family: "Arial";
-  color: rgb(37, 37, 37);
-  font-weight: bold;
-  line-height: 1.588;
-  height: 16px;
-  display: inline;
+
+.logo-name {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    line-height: 1.588;
+    height: 16px;
+    display: inline;
 }
+
 
 /*описание сайта*/
+
 .logo-title {
-  font-size: 11px;
-  font-family: "Arial";
-  color: rgb(37, 37, 37);
-  height: 10px;
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb(37, 37, 37);
+    height: 10px;
 }
 
-.logo-text{
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+.logo-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
+
 
 /*=банер в шапке=*/
+
+
 /*контейнер для банера*/
-.header-1-1-baner{
-  width: 728px;
-  height: 90px;
-  overflow: hidden;
-  float: right;
+
+.header-1-1-baner {
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    float: right;
 }
+
+
 /*картинка банера*/
-.header-1-1-baner img{
-  width: 728px;
-  height: 90px;
+
+.header-1-1-baner img {
+    width: 728px;
+    height: 90px;
+}
+
+
+/*=header-1-2*/
+
+.header-1-2 {
+    margin-top: 17px;
+}
+
+
+/*черное меню*/
+
+.menu-top {
+    float: left;
+    display: block;
+    width: 753px;
+    height: 40px;
+    /*     padding-left:20px; */
+    padding-top: 1px;
+    padding-bottom: 5px;
+    background-image: url(../img/index/menu-top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 40px;
+}
+
+.menu-top li {
+    display: inline-block;
+}
+
+.menu-top li a {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+    display: block;
+    /*     padding-left:11px; */
+    /*     padding-right:12px; */
+}
+
+.menu-top {
+    padding-left: 23px;
+}
+
+.menu-top li a:before {
+    content: "";
+    padding-right: 10px;
+    background-image: url(../img/index/menu-top-strelka.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.menu-top li:not(:last-child) a:after {
+    content: "";
+    padding-left: 12px;
+    padding-right: 12px;
+    background-image: url(../img/index/menu-top-line.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.menu-top li a:hover {
+    background-image: url(../img/index/menu-top-active.png);
+    background-repeat: no-repeat;
+}
+
+
+/* добавить */
+
+
+/*контейнер добавить*/
+
+.add {
+    float: right;
+    background-image: url(../img/index/add-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 195px;
+    padding-left: 6px;
+    height: 47px;
+}
+
+
+/*надпись добавить объект*/
+
+.add-add {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(123, 87, 23);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    line-height: 47px;
+    width: 142px;
+    text-align: center;
+    /*   margin:0 auto; */
+    display: inline-block;
+}
+
+
+/*span для надписи добавить объект*/
+
+.add-add span {
+    border-bottom: 1px dotted;
+}
+
+
+/*знак плюса*/
+
+.add-plus {
+    width: 46px;
+    line-height: 43px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add-plus img {
+    display: inline-block;
+    text-align: center;
+    padding-top: 11px;
+}
+
+
+/*=content=*/
+
+.content {
+    margin-top: 36px;
+}
+
+.left-center {
+    width: 776px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    /* margin-right:25px; */
+}
+
+.center {
+    margin-left: 225px;
+}
+
+.right {
+    float: right;
+    width: 200px;
+}
+
+.right-baner-div-1 {
+    width: 200px;
+    height: 400px;
+}
+
+.right-baner-div img {
+    width: 200px;
+    height: 400px;
+}
+
+
+/*=левый сайдбар=*/
+
+.left-div-baner {
+    margin-top: 32px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    ;
+}
+
+.left-div-banner img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*тень блока*/
+
+.sh-b {
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 1);
+    box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 1);
+}
+
+.left-news {
+    margin-top: 34px;
+}
+
+.left-news-title {
+    font-size: 25px;
+    font-family: "Arial";
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    line-height: 1.08;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    float: left;
+}
+
+.left-all-news {
+    margin-top: 7px;
+    display: inline-block;
+    float: right;
+}
+
+.left-all-news a {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(0, 129, 200);
+    text-decoration: underline;
+    /*   line-height: 1.308; */
+    /*   text-align: right; */
+}
+
+.left-news-container {
+    outline: 1px solid red;
+    clear: both;
+    margin-top: 20px;
+    display: inline-block;
+    width: 200px;
+}
+
+.left-news-post {
+    padding: 20px 0;
+    border-top: 1px solid #b5b5b5;
+}
+
+.news-data {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(33, 33, 35);
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.left-news-img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.left-news-img img {
+    width: 70px;
+    height: 70px;
+}
+
+.left-news-text {
+    outline: 1px solid red;
+    margin-left: 83px;
+}
+
+.left-news-text a {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(0, 129, 200);
+    text-decoration: underline;
+}
+
+.left-news-text p {
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(79, 79, 79);
+    line-height: 1.417;
 }
